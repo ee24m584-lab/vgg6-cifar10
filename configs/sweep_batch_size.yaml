@@ -1,0 +1,10 @@
+# One-factor-at-a-time sweep: batch_size. Baseline = relu / adam / lr 1e-3 / bs 64 / 15 epochs.
+program: train.py
+method: grid
+metric: {name: val_acc, goal: maximize}
+parameters:
+  epochs: {value: 15}
+  activation: {value: relu}
+  optimizer: {value: adam}
+  lr: {value: 0.001}
+  batch_size: {values: [32, 64, 128, 256]}

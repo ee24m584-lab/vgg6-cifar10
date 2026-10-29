@@ -1,0 +1,10 @@
+# One-factor-at-a-time sweep: activation. Baseline = relu / adam / lr 1e-3 / bs 64 / 15 epochs.
+program: train.py
+method: grid
+metric: {name: val_acc, goal: maximize}
+parameters:
+  epochs: {value: 15}
+  optimizer: {value: adam}
+  lr: {value: 0.001}
+  batch_size: {value: 64}
+  activation: {values: [relu, sigmoid, tanh, silu, gelu]}

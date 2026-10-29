@@ -1,0 +1,10 @@
+# One-factor-at-a-time sweep: lr_sgd. Baseline = relu / adam / lr 1e-3 / bs 64 / 15 epochs.
+program: train.py
+method: grid
+metric: {name: val_acc, goal: maximize}
+parameters:
+  epochs: {value: 15}
+  activation: {value: relu}
+  optimizer: {value: nesterov}
+  batch_size: {value: 64}
+  lr: {values: [0.003, 0.01, 0.03, 0.1]}
