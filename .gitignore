@@ -1,0 +1,7 @@
+data/
+__pycache__/
+wandb/
+*.pyc
+.venv/
+checkpoints/*.pt
+!checkpoints/final.pt
