@@ -73,8 +73,31 @@ python evaluate.py --checkpoint checkpoints/<run>.pt
 ```
 
 ## Results
+ 
+Figure 1. W&B parallel-coordinates plot: which configuration achieves which accuracy.
+<img width="478" height="303" alt="image" src="https://github.com/user-attachments/assets/183edb7c-b0fa-4697-af69-4b1d473f0968" />
 
-<img width="475" height="250" alt="image" src="https://github.com/user-attachments/assets/e927da27-847a-4547-9f6e-6a287952f092" />
+ 
+Figure 2. W&B scatter plot of validation accuracy across runs.
+<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/a0385a6d-0a98-4e0b-bc00-011c33aff4f2" />
+
+ 
+Figure 3. Training loss (W&B).
+<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/33edcf33-7a6a-4b05-b403-1bd3275fedf0" />
+
+ 
+Figure 4. Training accuracy (W&B).
+<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/13c4fe2c-d984-4e48-ada3-9fe4e89bbb27" />
+
+ 
+Figure 5. Validation loss (W&B).
+<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/5a9173e2-82b0-4c03-b743-1050c0f4accb" />
+
+ 
+Figure 6. Validation accuracy (W&B).
+<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/334c6739-242e-4616-92cb-134250ab86e9" />
+
+
 
 
 ### Best configuration
