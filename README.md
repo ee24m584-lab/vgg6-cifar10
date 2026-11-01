@@ -105,13 +105,30 @@ Figure 5: Validation accuracy plot.
  
 <img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_34_05" src="https://github.com/user-attachments/assets/8731e7f5-5573-4029-ad37-6953c7c110e7" />
 
-Figure 5: Validation accuracy plot.
+Figure 6: Validation loss plot.
 
 
 
 ### Best configuration
 
-_To be filled in: configuration, validation accuracy, and the command that reproduces it._
+Best configuration from the W&B parallel-coordinates plot (a single configuration):
+Activation	ReLU
+Optimizer	Adam
+Learning rate	0.001
+Batch size	64
+Epochs	45
+Weight decay	0.0005
+BatchNorm	Yes (--batch_norm 1)
+Cutout	Yes (--cutout 1)
+Momentum	Not used by Adam (default 0.9 in the config is ignored)
+Seed	42
+Best validation accuracy	80.37% (epoch 40). Final-epoch accuracy 80.00%.
+
+Command to reproduce:
+python train.py --activation relu --optimizer adam --lr 0.001 \
+                --batch_size 64 --epochs 45 --weight_decay 0.0005 --seed 42
+
+
 
 ### Trained model
 
