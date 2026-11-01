@@ -83,26 +83,29 @@ Figure 1:W&B Parallel-coordinates Plot
 
 
 
+<img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_30_10" src="https://github.com/user-attachments/assets/2ba1ca45-029f-4770-aafc-08cbd11ff645" />
 
-Figure 2. W&B scatter plot of validation accuracy across runs.
-<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/a0385a6d-0a98-4e0b-bc00-011c33aff4f2" />
+Figure 2: Validation accuracy vs. step plot.
 
- 
-Figure 3. Training loss (W&B).
-<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/33edcf33-7a6a-4b05-b403-1bd3275fedf0" />
 
  
-Figure 4. Training accuracy (W&B).
-<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/13c4fe2c-d984-4e48-ada3-9fe4e89bbb27" />
+<img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_33_42" src="https://github.com/user-attachments/assets/80c21d83-7c26-4856-a768-90494d168699" />
 
+Figure 3: Training accuracy plot.
+
+
+<img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_33_16" src="https://github.com/user-attachments/assets/8941e534-1703-484d-b15b-c80cb1ce1537" />
+
+Figure 4: Training loss plot.
+
+
+<img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_34_27" src="https://github.com/user-attachments/assets/28369064-06c5-4fa9-9f06-c74e816ce75f" />
+
+Figure 5: Validation accuracy plot.
  
-Figure 5. Validation loss (W&B).
-<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/5a9173e2-82b0-4c03-b743-1050c0f4accb" />
+<img width="5056" height="2656" alt="W B Chart 01_11_2026, 18_34_05" src="https://github.com/user-attachments/assets/8731e7f5-5573-4029-ad37-6953c7c110e7" />
 
- 
-Figure 6. Validation accuracy (W&B).
-<img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/334c6739-242e-4616-92cb-134250ab86e9" />
-
+Figure 5: Validation accuracy plot.
 
 
 
