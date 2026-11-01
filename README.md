@@ -136,5 +136,6 @@ _To be filled in: path to the final checkpoint._
 
 ## Links
 
-- W&B project: _to be added_
+- W&B project: https://wandb.ai/ee24m584-iit-madras-foundation/cs6886w-a1-vgg
+
 - Report PDF: _to be added_
