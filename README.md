@@ -74,7 +74,8 @@ python evaluate.py --checkpoint checkpoints/<run>.pt
 
 ## Results
 
-_To be filled in: sweep summaries, W&B plots (parallel coordinates, val_acc scatter, train/val loss and accuracy curves)._
+<img width="475" height="250" alt="image" src="https://github.com/user-attachments/assets/e927da27-847a-4547-9f6e-6a287952f092" />
+
 
 ### Best configuration
 
