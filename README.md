@@ -74,8 +74,11 @@ python evaluate.py --checkpoint checkpoints/<run>.pt
 
 ## Results
  
-Figure 1. W&B parallel-coordinates plot: which configuration achieves which accuracy.
-<img width="478" height="303" alt="image" src="https://github.com/user-attachments/assets/183edb7c-b0fa-4697-af69-4b1d473f0968" />
+<img width="475" height="250" alt="image" src="https://github.com/user-attachments/assets/47f7b5df-aac1-43b4-92e8-8ae98dd5d437" />
+
+Figure 1. W&B parallel-coordinates plot: which configuration achieves which accuracy.<img width="468" height="36" alt="image" src="https://github.com/user-attachments/assets/c3934217-9d90-4ff8-a31f-e2ea08f584c5" />
+
+
 
 
 
