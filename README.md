@@ -77,7 +77,8 @@ python evaluate.py --checkpoint checkpoints/<run>.pt
 Figure 1. W&B parallel-coordinates plot: which configuration achieves which accuracy.
 <img width="478" height="303" alt="image" src="https://github.com/user-attachments/assets/183edb7c-b0fa-4697-af69-4b1d473f0968" />
 
- 
+
+
 Figure 2. W&B scatter plot of validation accuracy across runs.
 <img width="476" height="288" alt="image" src="https://github.com/user-attachments/assets/a0385a6d-0a98-4e0b-bc00-011c33aff4f2" />
 
